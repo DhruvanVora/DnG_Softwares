@@ -19,7 +19,7 @@ class JDBC_Connection{
           stmt.setString(1, username);
           stmt.setString(2, email);
           isCreate = stmt.execute();
-          System.out.println(username+" Aunty ji khul gya khata.");
+          System.out.println(username+" ji khul gya khata.");
 
       } catch (Exception e) {
           System.out.println(e);
@@ -33,7 +33,7 @@ class JDBC_Connection{
        ResultSet rs = stmt.executeQuery();
        rs.next();
         if(username.equals(rs.getString("username"))){
-            System.out.println(rs.getString("username") + " , Swagat hai Aunty ji.");
+            System.out.println(rs.getString("username") + " , Swagat hai aapka.");
             return true;
         }
         else {
