@@ -33,7 +33,7 @@ public class Main {
             System.out.println(" high score : "+high_score);
         }
         else{
-            System.out.println("Invalid , Bhaiya Ji apne to unexpected hi krdia.");
+            System.out.println("Invalid , apne to unexpected hi krdia.");
         }
     }
 
@@ -89,7 +89,7 @@ public class Main {
 //            jdbc.logIn(username);
             startGame(username);
         }else {
-            System.out.println("Aunty ji screen time kam kro apna.");
+            System.out.println("screen time kam kro apna.");
         }
 
 
